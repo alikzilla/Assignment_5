@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book List</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background">
+    <div class="container">
+      <h1>Book List</h1>
+      <div class="inputs">
+        <hr>
+        <label for="title">Title</label>
+        <input type="text" id="title" name="title">
+        <label for="author">Author</label>
+        <input type="text" id="author" name="author">
+        <label for="icbn">ICBN - code</label>
+        <input type="number" id="icbn" name="icbn">
+        <div class="buttons">
+          <button id="submit">SUBMIT</button>
+          <button id="search">SEARCH</button>
+          <button id="remove">REMOVE</button>
+        </div>
+        <hr>
+      </div>
+      <div class="outputs">
+        <table class="fixed-size-table">
+          <tr>
+            <th style="width: 30px;">#</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ICBN</th>
+            <th>Available</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

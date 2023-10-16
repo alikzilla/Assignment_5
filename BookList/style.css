@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+.background{
+    background-image: url(Assets/bacground.png);
+    background-position: center;
+    background-repeat: repeat;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    margin-top: 100px;
+    padding: 2em 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 800px;
+}
+
+.container h1{
+    font-size: 50px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.inputs input, .inputs button{
+    height: 40px;
+    font-size: 20px;
+    padding: 0 10px;
+    outline-color: rgb(148, 214, 250);
+}
+
+.inputs label{
+    font-size: 25px;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.buttons button{
+    width: 33%;
+}
+
+.outputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.fixed-size-table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.fixed-size-table th, .fixed-size-table td {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #000;
+}
